@@ -1,6 +1,6 @@
 
 import { NextResponse } from 'next/server';
-import { supabaseAdmin } from '@/lib/supabase';
+import { supabaseAdmin } from '../../../lib/supabase';
 import { MercadoPagoConfig, Preference } from 'mercadopago';
 
 export async function POST(req: Request) {
